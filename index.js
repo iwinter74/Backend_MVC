@@ -11,7 +11,7 @@ const indexController = require('./controllers/indexController')
 const aboutController = require('./controllers/aboutController')
 const contactController = require('./controllers/contactController')
 
-const dbUri = 'mongodb+srv://supercode:supercode@cluster0.wrfzy.mongodb.net/superDatabase?retryWrites=true&w=majority'
+const dbUri = 'secret'
 mongoose.connect(dbUri, { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => {
         console.log('connected')
